@@ -58,7 +58,7 @@
             var username = document.getElementById('username').value;
             var password = document.getElementById('password').value;
 
-              if (username === '' || password === '') {
+            if (username === '' || password === '') {
                 alert('Vui lòng không để trống ô username hoặc password!');
                 document.getElementById('username').value = '';
                 document.getElementById('password').value = '';
@@ -69,6 +69,7 @@
                 window.location.href = 'trangchu.html';
             }
         });
+
 
     document.getElementById('forgot').addEventListener('click', function(event) {
             event.preventDefault();
